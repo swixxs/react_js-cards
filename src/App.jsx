@@ -1,21 +1,18 @@
-import reactLogo from "./assets/react.svg";
-import { Counter } from "./Counter";
-import { List } from "./List";
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { MainLayout } from "./components/MainLayout";
 
 function App() {
   return (
-    <>
-      <div>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <hr />
-      <Counter />
-      <hr />
-      <List />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<div>home</div>} />
+          <Route path="/main" element={<div>main component ❤️</div>} />
+          <Route path="/forbidder" element={<div>forbidder 😎</div>} />
+          <Route path="/addquestion" element={<div>addquestion 🙋🏼‍♀️</div>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
