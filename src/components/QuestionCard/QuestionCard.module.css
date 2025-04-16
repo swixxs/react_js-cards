@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+  gap: 15px;
+  width: 300px;
+  padding: 15px;
+  height: 350px;
+
+  color: var(--text-color);
+  background-color: var(--card-bg-color);
+  border-radius: 10px;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.1);
+
+  button {
+    align-self: flex-end;
+    
+  }
+}
+
+.cardLabels {
+  display: flex;
+  gap: 10px;
+}
+
+.cardTitle {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.cardAnswers {
+  margin-top: auto;
+}
+
+.cardAnswer {
+  text-align: justify;
+  font-size: 14px;
+  filter: blur(4px);
+  font-size: italic;
+  transition: 0.7s ease-in-out;
+  cursor: pointer;
+}
+
+.cardAnswer:hover {
+  filter: none;
+}
