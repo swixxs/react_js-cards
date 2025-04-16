@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.completed {
+  background-color: red;
+  color: blue;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
