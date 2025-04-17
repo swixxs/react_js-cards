@@ -1,6 +1,6 @@
 import cls from "./Badge.module.css";
 
-export const Badge = ({ variant, variantComp, children }) => {
+export const Badge = ({ variant, children }) => {
   switch (variant) {
     case "primary":
       return <div className={`${cls.badge} ${cls.primary}`}> {children} </div>;
