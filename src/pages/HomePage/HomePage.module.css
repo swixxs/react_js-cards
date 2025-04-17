@@ -1,5 +1,5 @@
 .controlsContainer {
-  display: center;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -8,4 +8,30 @@
   margin: 0 auto;
   padding: 15px 0;
   gap: 10px;
+}
+
+.noCardsInfo {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.select {
+  text-align: center;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  appearance: inherit;
+  background-color: var(--card-bg-color);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .2);
+  color: var(--text-color);
+  flex-grow: 1;
+}
+
+@media (max-width: 576px){
+  .controlsContainer {
+    flex-wrap: wrap-reverse;
+  }
 }
