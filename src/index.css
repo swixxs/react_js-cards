@@ -4,6 +4,7 @@
   --btn-bg-color: #383b3f;
   --btn-text-color: #fff;
   --card-bg-color: #343a46;
+  --blur-card-color: #57c4dc;;
 
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -40,6 +41,7 @@ body {
     --btn-bg-color: #16444f;
     --btn-text-color: #57c4dc;
     --card-bg-color: #ebedf0;
+    --blur-card-color: rgba(87, 196, 220, 0.5);
   }
 }
 
@@ -50,5 +52,6 @@ body {
     --btn-bg-color: #383b3f;
     --btn-text-color: #fff;
     --card-bg-color: #343a46;
+    --blur-card-color: rgba(67, 67, 67, 0.5);
   }
 }

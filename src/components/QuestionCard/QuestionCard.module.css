@@ -32,6 +32,10 @@
 
 .cardAnswers {
   margin-top: auto;
+  padding: 5px;
+  box-shadow: 0 0 10px 10px var(--blur-card-color);
+  background-color: var(--blur-card-color);
+  border-radius: 10px;
 }
 
 .cardAnswer {

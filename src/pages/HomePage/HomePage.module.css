@@ -1,0 +1,11 @@
+.controlsContainer {
+  display: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  
+  margin: 0 auto;
+  padding: 15px 0;
+  gap: 10px;
+}
