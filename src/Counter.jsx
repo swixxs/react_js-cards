@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "./components/Button/Button";
 
 export const Counter = () => {
@@ -6,8 +6,27 @@ export const Counter = () => {
 
   const setCounterHandler = () => {
     setCount((prev) => prev + 1);
-    setCount((prev) => prev + 1);
   };
+
+  useEffect(() => {
+    //компонент смонтирован/отрендерен
+    console.log(`[Монтировние] компонент смонтирован`);
+
+    return () => {
+      //функция очистки
+      console.log(`[Размонтирован] компонент размонтируется`);
+    };
+  }, []);
+
+  useEffect(() => {
+    //компонент смонтирован/отрендерен
+    count !== 0 && console.log(`[Обновление] компонент обновлен`);
+
+    return () => {
+      //функция очистки
+      console.log(`[Размонтирован] компонент размонтируется`);
+    };
+  }, [count]);
 
   return (
     <div>
