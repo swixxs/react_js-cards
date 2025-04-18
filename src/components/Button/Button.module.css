@@ -9,6 +9,7 @@
   transition: border-color 0.25s;
   background-color: var(--btn-bg-color);
   color: var(--btn-text-color);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .2);
 }
 
 .btn:hover {

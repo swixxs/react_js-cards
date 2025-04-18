@@ -30,6 +30,18 @@
   flex-grow: 1;
 }
 
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  flex-wrap: wrap;
+  
+  margin: 10px auto 0;
+  gap: 10px;
+  max-width: 800px;
+}
+
 @media (max-width: 576px){
   .controlsContainer {
     flex-wrap: wrap-reverse;
