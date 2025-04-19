@@ -1,0 +1,74 @@
+.formTitle {
+  width: fit-content;
+  margin: 25px auto;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: var(--card-bg-color);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .2);
+}
+
+/* form component */
+
+.form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+  
+  gap: 15px;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.formControl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+  
+  gap: 5px;
+  width: 100%;
+
+  label {
+    color: (--text-color);
+    font-size: 18px;
+  }
+
+  select, textarea {
+    padding: 5px;
+    color: var(--text-color);
+    background-color: var(--main-bg-color);
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+
+  select:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--form-border-color);
+  }
+}
+
+.clearFormControl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+  gap: 10px;
+  width: 100%;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--btn-bg-color);
+}
+
+.checkbox:disabled + span {
+  opacity: .5;
+}

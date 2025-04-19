@@ -11,6 +11,8 @@
   --badge-3lvl: rgb(61, 61, 61);
   --bage-text-color: #fff;
 
+  --form-border-color: #fff;
+
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -54,6 +56,8 @@ body {
     --badge-2lvl: rgb(107, 107, 107);
     --badge-3lvl: rgb(61, 61, 61);
     --bage-text-color: #fff;
+
+    --form-border-color: rgb(107, 107, 107);
   }
 }
 
@@ -72,5 +76,7 @@ body {
     --badge-2lvl: rgb(107, 107, 107);
     --badge-3lvl: rgb(61, 61, 61);
     --bage-text-color: black;
+
+    --form-border-color: rgb(107, 107, 107);
   }
 }
