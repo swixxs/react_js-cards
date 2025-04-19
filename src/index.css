@@ -4,7 +4,12 @@
   --btn-bg-color: #383b3f;
   --btn-text-color: #fff;
   --card-bg-color: #343a46;
-  --blur-card-color: #57c4dc;;
+  --blur-card-color: #57c4dc;
+
+  --badge-1lvl: rgb(176, 176, 176);
+  --badge-2lvl: rgb(107, 107, 107);;
+  --badge-3lvl: rgb(61, 61, 61);
+  --bage-text-color: #fff;
 
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -38,20 +43,34 @@ body {
   :root {
     --main-bg-color: #fff;
     --text-color: #000;
-    --btn-bg-color: #16444f;
-    --btn-text-color: #57c4dc;
+
+    --btn-bg-color: rgb(107, 107, 107);
+    --btn-text-color: #fff;
+
     --card-bg-color: #ebedf0;
     --blur-card-color: rgba(87, 196, 220, 0.5);
+
+    --badge-1lvl: rgb(176, 176, 176);
+    --badge-2lvl: rgb(107, 107, 107);
+    --badge-3lvl: rgb(61, 61, 61);
+    --bage-text-color: #fff;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-bg-color: #23272f;
+    --main-bg-color: #1f1f1f;
     --text-color: #fff;
-    --btn-bg-color: #383b3f;
+
+    --btn-bg-color: rgb(107, 107, 107);
     --btn-text-color: #fff;
-    --card-bg-color: #343a46;
+
+    --card-bg-color: #171717;
     --blur-card-color: rgba(67, 67, 67, 0.5);
+
+    --badge-1lvl: rgb(176, 176, 176);
+    --badge-2lvl: rgb(107, 107, 107);
+    --badge-3lvl: rgb(61, 61, 61);
+    --bage-text-color: black;
   }
 }

@@ -1,1 +1,1 @@
-export { Loader } from "./Loader";
+export { Loader, LoaderUpdCard } from "./Loader";

@@ -6,21 +6,25 @@
   text-transform: capitalize;
   font-weight: 500;
   font-size: 14px;
-  background-color: #c5baff;
+  background-color: #c5baff;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .2);
 }
 
 .primary {
-  background-color: #2973b2;
+  background-color: var(--badge-1lvl);
+  color: var(--text-color);
 }
 
 .success {
-  background-color: #16c47f;
+  background-color: var(--badge-1lvl);
+  color: var(--text-color);
 }
 
 .warning {
-  background-color: #ff9d23;
+  background-color: var(--badge-2lvl);
+  color: var(--text-color);
 }
 
 .alert {
-  background-color: #d84040;
+  background-color: var(--badge-3lvl);
+  color: var(--text-color);
 }

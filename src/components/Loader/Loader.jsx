@@ -7,3 +7,7 @@ export const Loader = () => {
     </div>
   );
 };
+
+export const LoaderUpdCard = () => {
+  return <span className={cls.loaderUpdCard}></span>;
+};

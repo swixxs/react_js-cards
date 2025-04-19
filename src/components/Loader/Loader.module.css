@@ -35,3 +35,27 @@
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 999;
 }
+
+/* loader updating card */
+
+.loaderUpdCard {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: cardLoader 1s linear infinite;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes cardLoader {
+  0% {
+    box-shadow: -72px 0 #FFF inset;
+  }
+  100% {
+    box-shadow: 48px 0 #FFF inset;
+  }
+}
+
+
+    

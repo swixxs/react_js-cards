@@ -8,17 +8,19 @@
   cursor: pointer;
   transition: border-color 0.25s;
   background-color: var(--btn-bg-color);
-  color: var(--btn-text-color);
+  color: var(--text-color);
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .2);
+  border: none;
 }
 
 .btn:hover {
-  border-color: #2f2f2f;
+  border-color: #000;
 }
 
 .btn:focus,
 .btn:focus-visible {
-  outline: 4px auto #2f2f2f;
+  outline: none;
+  border: none;
 }
 
 .btn:disabled {
@@ -28,5 +30,6 @@
 
 .active {
   color: #000;
-  background-color: #ce7e1d;
+  /* background-color: #ce7e1d; */
+  background-color: white;
 }
